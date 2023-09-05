@@ -10,7 +10,7 @@ function NewMeetupPage() {
       headers:{
         'content-Type':'application/json'
       }
-    }).then((=>{history.replace('/')}));
+    }).then((()=>{history.replace('/')}));
   }
   return <section>
     <h1>Add New Meetup</h1>
